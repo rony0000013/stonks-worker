@@ -152,8 +152,7 @@ app.get('/chat', async (c) => {
 	const messages = [
 		{
 			role: 'system',
-			content:
-				`You are a stock assistant bot. your job is to assist with the stock market queries of the user. Be factual and do not generate false data. Here is the given context ${value}`,
+			content: `You are a stock assistant bot. your job is to assist with the stock market queries of the user. Be factual and do not generate false data. Here is the given context ${value}`,
 		},
 		{
 			role: 'user',
